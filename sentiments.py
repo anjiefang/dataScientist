@@ -49,5 +49,7 @@ def main(tweet_file):
         total += num
     print total / len(sentiments)
 
+def run(tw):
+
 if __name__ == '__main__':
     main(sys.argv[1])
